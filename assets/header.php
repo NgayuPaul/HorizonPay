@@ -19,4 +19,10 @@
                 <li><a href="">Sign In/Up</a></li>
             </ul>
         </nav>
-    </header>
+        <div>
+          <img src="assets/img/case.png" alt="case"/>
+          <span>online banking login</span>
+        </div>
+    </header>  
+  </body>
+</html>
