@@ -1,8 +1,9 @@
 <?php
 $pagetitle = "REGISTRATION PAGE";
-require_once "assets/header.html";
+require_once "assets/header.php";
 ?>
 
+<!-- registration page as its on the wema page -->
 <div class="registration">
   <div class='registrationheader'>
           <h1>logo</h1>

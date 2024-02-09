@@ -1,7 +1,10 @@
 <?php 
     $pagetitle = "LOGIN";
-    require_once "assets/header.html";
+    require_once "assets/header.php";
 ?>
+
+<!-- loginpage as its on the wema page -->
+
 <div class="LoginPage">
       <h1>Welcome Back!</h1>
       <div class='loginpage'>
