@@ -2,7 +2,7 @@
 <html lang="en">
 <?php 
     $pagetitle = "Welcome to Horizon Pay";
-    require_once "assets/header.html";
+    require_once "assets/header.php";
 ?>
 <body>
     <section class="header-2">
@@ -220,4 +220,4 @@
     </section>
 
 </body>
-</html>  
+</html>
