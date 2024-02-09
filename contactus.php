@@ -1,6 +1,9 @@
 <?php
      require_once "index.php";
 ?>
+<?php
+     require_once "assets/header.php";
+?>
 
 <?php
 echo '<section>
@@ -47,3 +50,6 @@ echo '<section>
 </section>';
 ?>
 
+<?php
+     require_once "assets/footer.php";
+?>

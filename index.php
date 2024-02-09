@@ -218,16 +218,10 @@
             <p>prioritizing environmental quality sustains the future creating a conclusive environment for stakeholders and generations</p>
         </div>
     </section>
+    <?php 
+        require_once "assets/footer.php";
+    ?>
 
-</body>
-</html><?php 
-    $pagetitle = "Welcome to Horizon Pay";
-    require_once "assets/header.php";
+<?php
+     require_once "contactus.php";
 ?>
-
-<h1>Let's Create Together a payment System</h1>
-<?php 
-    require_once "assets/footer.php";
-?>
-  
-  
