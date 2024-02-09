@@ -4,20 +4,18 @@
 
 <?php
 echo '<section>
-<!-- First div Section holding both the Text and the Image id="1" you can remove it onces seen, id="2" holds the text-->
-<div id="1">
-  <div id="2">
+<!-- First div Section holding the Text id="1", you can remove it onces seen, id="2" holds the Image-->
+  <div id="1">
    <div>Help & Support</div>
    <div>Contact Us</div>
    <div>Purple connect (24 hrs contact center)</div>
   </div>
-  <!-- id="3" holds the images -->
-  <div id="3">
+  <!-- id="2" holds the images -->
+  <div id="2">
     <img src="assets/Images/BBB.jpg" alt=""/>
   </div>
-</div>
-<!-- Second div Section id="4" holds the Form -->
-<div id="4">
+<!-- Second div Section id="3" holds the Form -->
+<div id="3">
      <form action="">
          <div>Contact Us</div>
          <div>First Name</div>
@@ -37,8 +35,8 @@ echo '<section>
          <div id="">Send</div>
      </form>
 </div>
-<!-- id="5" holds all the image icon and the span for text beside it incase of styling -->
-<div id="5"> 
+<!-- id="4" holds all the image icon and the span for text beside it incase of styling -->
+<div id="4"> 
         <img src="assets/Images/Email.png" alt="" /><span id="">Help Desk</span>
         <img src="assets/Images/phone.png" alt="" /><span id="">+234-803-900-3700</span>
         <img src="assets/Images/phone.png" alt="" /><span id="">+234-01-277-7700-9</span>
