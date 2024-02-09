@@ -6,7 +6,7 @@
     <title><?= $pagetitle  ?></title>
     <!-- <link rel="stylesheet" href="style.css"> -->
       <script src="https://kit.fontawesome.com/193fdcad3c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/style.css"/>
+    <link rel="stylesheet" href="assets/styles.css"/>
   </head>
   <body>
     <header>
