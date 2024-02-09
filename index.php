@@ -218,6 +218,6 @@
             <p>prioritizing environmental quality sustains the future creating a conclusive environment for stakeholders and generations</p>
         </div>
     </section>
-
-</body>
-</html>
+    <?php 
+        require_once "assets/footer.php";
+    ?>

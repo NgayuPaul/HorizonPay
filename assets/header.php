@@ -27,6 +27,3 @@
           <img src="assets/img/case.png" alt="case"/>
           <span>online banking login</span>
         </div>
-    </header>  
-  </body>
-</html>
