@@ -5,7 +5,7 @@
     require_once "assets/header.php";
 ?>
 <body>
-    <section class="header-2">
+    <!-- <section class="header-2">
         <ul>
             <li><a href="">About Us</a></i>
             <li><a href="">Careers</a></li>
@@ -16,7 +16,7 @@
         <div id="search-btn">
             <img src="assets/img/search.png" alt="search">
         </div>
-</section>
+</section> -->
 
 <section class="slider">
     <img src="assets/img/Banks.jpg" alt="bank">

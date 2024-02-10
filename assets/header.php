@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="assets/styles.css"/>
   </head>
   <body>
+    
     <header>
-        <h1>HorizonPay</h1>
+    <section id ="header-1">
+    <h1>HorizonPay</h1>
         <nav>
             <ul>
                 <li><a href="index.php">Home</a></li>
@@ -23,7 +25,26 @@
                 <li><a href="">Contant Us</a></li>
               </ul>
         </nav>
-        <div>
+    </section>
+    <section class="header-2">
+        <ul>
+            <li><a href="">About Us</a></i>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Investors Relations</a></li>
+            <li><a href="">sustainability</a></li>
+            <li><a href="">Resource center</a></li>
+        </ul>
+        <div id="search-btn">
+            <img src="assets/img/search.png" alt="search">
+        </div>
+</section>
+       
+        
+        <div> 
+          <button type="submit">
           <img src="assets/img/case.png" alt="case"/>
-          <span>online banking login</span>
+            <span>online banking login</span>
+          </button>
+       
+          
         </div>
