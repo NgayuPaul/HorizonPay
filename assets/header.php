@@ -24,6 +24,13 @@
                 <li><a href="">Blog</a></li>
                 <li><a href="">Contant Us</a></li>
               </ul>
+              <div id="search-btn">
+            <img src="assets/img/search.png" alt="search">
+        </div>
+        <button type="submit">
+          <img src="assets/img/case.png" alt="case"/>
+            <span>online banking login</span>
+          </button>
         </nav>
     </section>
     <section class="header-2">
@@ -34,17 +41,10 @@
             <li><a href="">sustainability</a></li>
             <li><a href="">Resource center</a></li>
         </ul>
-        <div id="search-btn">
-            <img src="assets/img/search.png" alt="search">
-        </div>
+        
 </section>
        
         
         <div> 
-          <button type="submit">
-          <img src="assets/img/case.png" alt="case"/>
-            <span>online banking login</span>
-          </button>
-       
           
         </div>
