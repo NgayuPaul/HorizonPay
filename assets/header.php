@@ -15,13 +15,9 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
-                <li><a href="">Business</a></li>
-                <li><a href="">SME</a></li>
-                <li><a href="">ALAT</a></li>
-                <li><a href="">SARA</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contant Us</a></li>
-              </ul>
+                <li><a href="contactus.php">Contact Us</a></li>
+                <li><a href="">Sign In/Up</a></li>
+            </ul>
         </nav>
         <div>
           <img src="assets/img/case.png" alt="case"/>
