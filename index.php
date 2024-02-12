@@ -167,7 +167,7 @@
                         <p>Our Rating</p>
                 </div>
             </div>
-            <img src="assets/img/coporate.jpg" alt="corporate">
+            <img src="assets/img/coporate.jpg" alt="corporate" width=400px>
             </div>
             <div class="tabs">
                 <div id="share">
