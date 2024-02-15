@@ -7,6 +7,7 @@
           <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
           <a href=""><i class="fa-brands fa-instagram"></i></a>
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          
         </div>
         
         <div class="apps">
@@ -81,5 +82,6 @@
         </div>
       </div>
     </section>
+    <script src="assets/script.js"></script>
   </body>
 </html>

@@ -1,5 +1,5 @@
 :root {
-  --section-padding: 4rem;
+  --section-padding: 6rem;
   --color-white: #fff;
 }
 *,
@@ -15,13 +15,119 @@ body {
     font-size: 0.88rem;
   }
 }
+.header-1 {
+  color: #c1a7d1;
+  background-color: #fff;
+  padding: 1rem var(--section-padding) 1rem var(--section-padding);
+
+  display: flex;
+  justify-content: space-between;
+  nav {
+    display: flex;
+    column-gap: 4rem;
+    font-size: 0.89rem;
+    /* padding: 1rem 0 1rem 0; */
+    ul {
+      display: flex;
+      column-gap: 2rem;
+      text-align: center;
+      margin-top: 0.5rem;
+      padding-right: 2rem;
+
+      li {
+        list-style: none;
+        position: relative;
+        a {
+          text-decoration: none;
+          color: #504f65;
+          transition: 0.4s;
+        }
+        a:hover {
+          color: #981d88fd;
+        }
+
+        a::after {
+          content: "";
+          width: 0%;
+          height: 2px;
+          background: #981d88fd;
+          position: absolute;
+          bottom: -4px;
+          left: 2px;
+          transition: width 01s ease;
+        }
+        a:hover::after {
+          width: 95%;
+        }
+      }
+    }
+    a button {
+      color: #fff;
+      background-color: #981d88fd;
+      border-radius: 50px;
+      padding: 0.3rem;
+      width: 210px;
+      border: none;
+      span {
+        font-size: 1.1rem;
+        margin-left: 0.6rem;
+      }
+    }
+  }
+}
+/* section.header2 {
+} */
+.header-2 {
+  padding: 1rem var(--section-padding) 1rem var(--section-padding);
+  background-color: rgba(241, 237, 237, 0.717);
+  border-top: 1px solid #cac9c9f0;
+  border-bottom: 1px solid #cac9c9f0;
+  /* color: ; */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    ul {
+      display: flex;
+      column-gap: 2rem;
+      text-align: center;
+      margin-top: 0;
+      padding-right: 2rem;
+      li,
+      a {
+        list-style: none;
+        text-decoration: none;
+        color: #504f65;
+      }
+    }
+  }
+}
+.form-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  input[type="text"] {
+    width: 200px;
+    padding: 0.5rem;
+    border-radius: 50px;
+    border: none;
+    transition: width 0.5s;
+  }
+}
+.active {
+  display: none;
+}
 
 #footer {
   display: flex;
-  background-image: url("images/footerbg3.webp");
+  background-image: linear-gradient(
+      to right,
+      rgba(152, 29, 135, 0.76),
+      rgba(152, 29, 135, 0.76)
+    ),
+    url("images/footerbg3.webp");
   background-size: cover;
   color: white;
-  /* font-family: Arial, Helvetica, sans-serif; */
   padding: var(--section-padding) var(--section-padding) 0
     var(--section-padding);
   width: 98vw;
